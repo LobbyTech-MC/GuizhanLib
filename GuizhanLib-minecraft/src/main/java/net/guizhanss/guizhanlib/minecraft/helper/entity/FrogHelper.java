@@ -87,7 +87,17 @@ public final class FrogHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Frog.Variant getFrogVariant() {
+			// TODO Auto-generated method stub
+			return frogVariant;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取青蛙肤色
          *
          * @param frogVariant {@link Frog.Variant} 青蛙肤色

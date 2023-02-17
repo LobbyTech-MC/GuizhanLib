@@ -246,4 +246,34 @@ public abstract class AbstractGuizhanBuildsUpdater {
 
         return UpdaterLocalizations.get(getLanguage(), key);
     }
+
+	public boolean checkOnly() {
+		// TODO Auto-generated method stub
+		return checkOnly;
+	}
+
+	public String getUser() {
+		// TODO Auto-generated method stub
+		return user;
+	}
+
+	public String getRepo() {
+		// TODO Auto-generated method stub
+		return repo;
+	}
+
+	public String getBranch() {
+		// TODO Auto-generated method stub
+		return branch;
+	}
+
+	public Plugin getPlugin() {
+		// TODO Auto-generated method stub
+		return plugin;
+	}
+
+	public File getFile() {
+		// TODO Auto-generated method stub
+		return file;
+	}
 }

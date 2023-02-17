@@ -78,7 +78,17 @@ public enum BasicMetal {
         this.chinese = chinese;
     }
 
-    /**
+    String getChinese() {
+		// TODO Auto-generated method stub
+		return chinese;
+	}
+
+	String getEnglish() {
+		// TODO Auto-generated method stub
+		return english;
+	}
+
+	/**
      * 根据英文返回对应的枚举
      *
      * @param english {@link String} 提供的英文

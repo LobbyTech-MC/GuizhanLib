@@ -103,7 +103,17 @@ public final class PandaHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Panda.Gene getPandaGene() {
+			// TODO Auto-generated method stub
+			return pandaGene;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取熊猫基因
          *
          * @param pandaGene {@link Panda.Gene} 熊猫基因

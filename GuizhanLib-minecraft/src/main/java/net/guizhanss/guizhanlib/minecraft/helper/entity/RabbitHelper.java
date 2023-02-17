@@ -103,7 +103,17 @@ public final class RabbitHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Rabbit.Type getRabbitType() {
+			// TODO Auto-generated method stub
+			return rabbitType;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取兔子的类型
          *
          * @param rabbitType {@link Rabbit.Type} 兔子的类型

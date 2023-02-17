@@ -116,7 +116,22 @@ public enum AdvancedMetal {
         this.slimefunId = slimefunId;
     }
 
-    @ParametersAreNonnullByDefault
+    String getSlimefunId() {
+		// TODO Auto-generated method stub
+		return slimefunId;
+	}
+
+	String getChinese() {
+		// TODO Auto-generated method stub
+		return chinese;
+	}
+
+	String getEnglish() {
+		// TODO Auto-generated method stub
+		return english;
+	}
+
+	@ParametersAreNonnullByDefault
     AdvancedMetal(String english, String chinese) {
         this.english = english;
         this.chinese = chinese;

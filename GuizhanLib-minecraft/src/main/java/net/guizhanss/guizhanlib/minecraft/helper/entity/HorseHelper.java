@@ -134,7 +134,17 @@ public final class HorseHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Horse.Color getHorseColor() {
+			// TODO Auto-generated method stub
+			return horseColor;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取马的颜色
          *
          * @param horseColor {@link Horse.Color} 马的颜色
@@ -200,7 +210,17 @@ public final class HorseHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Horse.Style getHorseStyle() {
+			// TODO Auto-generated method stub
+			return horseStyle;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取马的样式
          *
          * @param horseStyle {@link Horse.Style} 马的样式

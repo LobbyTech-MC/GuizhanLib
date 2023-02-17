@@ -83,7 +83,17 @@ public final class FoxHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Fox.Type getFoxType() {
+			// TODO Auto-generated method stub
+			return foxType;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取狐狸的类型
          *
          * @param foxType {@link Fox.Type} 狐狸的类型

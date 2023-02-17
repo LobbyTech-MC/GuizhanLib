@@ -95,7 +95,17 @@ public final class AxolotlHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Axolotl.Variant getAxolotlVariant() {
+			// TODO Auto-generated method stub
+			return axolotlVariant;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取美西螈的变种
          *
          * @param axolotlVariant {@link Axolotl.Variant} 美西螈的变种

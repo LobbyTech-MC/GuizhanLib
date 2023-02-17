@@ -119,7 +119,17 @@ public final class CatHelper {
             this.chinese = chinese;
         }
 
-        /**
+        org.bukkit.entity.Cat.Type getCatType() {
+			// TODO Auto-generated method stub
+			return catType;
+		}
+
+		String getChinese() {
+			// TODO Auto-generated method stub
+			return chinese;
+		}
+
+		/**
          * 获取猫的类型
          *
          * @param catType {@link Cat.Type} 猫的类型
